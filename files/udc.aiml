@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
   <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <pattern>How are you?</pattern>
+    <template>I am doing amazing, It is a great day to be a Florida Gator.</template>
+  </category>
+  <category>
+      <pattern>My name is *</pattern>
+      <template>
+          Hey <star/>, amazing to meet you!</template>
+  </category>
+  <category>
+      <pattern>How do I submit an assignment?</pattern>
+      <template>
+          You should submit on canvas in the assignment tab. 
+      </template>
+  </category>
+  <category>
+      <pattern>What is the deadline?</pattern>
+      <template>
+          The deadline is posted in the syllabus and is also posted in canvas. 
+      </template>
+  </category>
+  <category>
+      <pattern>What is this class about?</pattern>
+      <template>
+          This class is about learning the principles of the chatbot and practicing using AIML. 
+      </template>
   </category>
 </aiml>
